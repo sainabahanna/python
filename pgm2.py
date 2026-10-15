@@ -1,0 +1,6 @@
+a=int(input("enter an integer value "))
+b=float(input("enter an float value"))
+c=complex(input("enter a complex value"))
+print("integer:",a)
+print("float:",b)
+print("complex:",c)
