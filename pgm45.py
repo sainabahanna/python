@@ -1,0 +1,10 @@
+import datetime
+year=int(input("enter year"))
+month=int(input("enter month"))
+day=int(input("enter day:"))
+today=datetime.date(year,month,day)
+yesterday=today-datetime.timedelta(days=1)
+tomarrow=today+datetime.timedelta(days=1)
+print("yesterday",yesterday)
+print("today",today)
+print("tomarrow",tomarrow)
